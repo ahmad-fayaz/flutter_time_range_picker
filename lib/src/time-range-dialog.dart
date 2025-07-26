@@ -694,7 +694,7 @@ class TimeRangePickerState extends State<TimeRangePicker>
         child: AspectRatio(
           aspectRatio: 1,
           child: Container(
-            color: Colors.white.withOpacity(0),
+            color: Colors.yellow,
             child: Center(
               child: CustomPaint(
                 key: _circleKey,
